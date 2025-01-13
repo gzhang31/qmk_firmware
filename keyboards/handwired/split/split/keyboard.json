@@ -1,0 +1,20 @@
+{
+    "diode_direction": "COL2ROW",
+    "split": {
+        "enabled": true
+    },
+    "development_board": "blackpill_f411",
+    "features": {
+        "bootmagic": true,
+        "mousekey": true,
+        "extrakey": true,
+        "console": true,
+        "command": true
+    },
+    "qmk": {
+        "locking": {
+            "enabled": true,
+            "resync": true
+        }
+    }
+}
