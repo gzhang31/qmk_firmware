@@ -20,7 +20,7 @@
 // #define SPLIT_HAND_MATRIX_GRID A10, A4
 // 68kohm
 #define EE_HANDS
-#define DEBOUNCE 10
+#define DEBOUNCE 15
 
 #define BOOTMAGIC_ROW 0
 #define BOOTMAGIC_COLUMN 0
@@ -50,5 +50,5 @@
 #define MATRIX_COL_PINS { B9, B8, B0, B1, A3, A2, A1, C14, C15 }
 
 //debug
-#define SERIAL_DEBUG
+//#define SERIAL_DEBUG
 //#define DEBUG_MATRIX_SCAN_RATE
